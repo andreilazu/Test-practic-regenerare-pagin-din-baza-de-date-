@@ -12,7 +12,9 @@ Eu ma gandeam la structura asta: Scraper ia datele , initializeaza database-ul ,
 Uite ce e in main.article:"
 - Prompt 2: "In loc sa cautam elementele dupa continut sau pozite , itereaza prin toti copii si vezi in ce structura sunt , de exemplu in loc de asta : article.find("p", string=lambda t: "Vei trece pas cu pas" in t)
 mai bine facem if(tag_name==p) ... "
+- Prompt 3: "Adauga un readme astfel incat sa fie clar si explicit"
 
 ## Pași manuali între rulări
 - Rularea 1: am observat ca agentul a facut totul hardcodat si am incercat sa minimizez cat de mult acest lucru
 - Rularea 2: am modificat promptul pentru claritate
+- Rularea 3: readme era prea vag si am adaugat anumite detalii tehnice
